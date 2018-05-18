@@ -1,244 +1,21 @@
-{
-    box-sizing: border-box;
-  }
-  *, *:before, *after{
-    box-sizing: inherit;
-  }
+/* Global */
 
-.img-responsive{
+* {
+  box-sizing: border-box;
+}
+
+*, *:before, *::after {
+  box-sizing: inherit;
+}
+
+.img-responsive {
   max-width: 100%
 }
 
-.container{
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row{
-  clear: both;
-}
-
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
-.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
-.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
-  float: left;
-}
-
-@media(max-width: 768px){
-  .col-sm-1{
-    width: 10%;
-  }
-  .col-sm-2{
-    width: 20%;
-  }
-  .col-sm-3{
-    width: 30%;
-  }
-  .col-sm-4{
-    width: 40%;
-  }
-  .col-sm-5{
-    width: 50%;
-  }
-  .col-sm-6{
-    width: 60%;
-  }
-  .col-sm-7{
-    width: 70%;
-  }
-  .col-sm-8{
-    width: 80%;
-  }
-  .col-sm-9{
-    width: 90%;
-  }
-  .col-sm-10{
-    width: 100%;
-  }
-
-  .col-sm-offset-1{
-    padding-left: 10%;
-  }
-  .col-sm-offset-3{
-    margin-left: 30%;
-  }
-
-
-  .cv-photo-sm{
-    border-radius: 50%;
-    width: 50%;
-    margin-top: -60px;
-  }
-  .resumen-sm{
-    background: white;
-    margin: 20% 10% 10% 10%;  
-  }
-  .cell-sm{
-    text-align: justify; 
-  }
-  .presentation-sm{
-     
-  }
-  .presentation-sm h1{
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.5rem;    
-  }
-  .skill-bar {
-      width: 100%;
-      padding-top: 10px;
-  }
-
-  .skills {
-      text-align: left;
-      font-family: 'Merriweather Sans', sans-serif; 
-      color: #fff;
-      padding-right: 20px;
-      line-height: 40px;
-  }
-
-  .html {width: 90%; background-color: #FF5252;}
-  .css {width: 80%; background-color: #FF5252;}
-  .js {width: 65%; background-color: #FF5252;}
-  .php {width: 60%; background-color: #FF5252;}
-
-
-  p{
-    text-align: justify;
-  }
-}
-
-@media(min-width: 481px){
-
-  .col-md-1{
-    width: 10%;
-  }
-  .col-md-2{
-    width: 20%;
-  }
-  .col-md-3{
-    width: 30%;
-  }
-  .col-md-4{
-    width: 40%;
-  }
-  .col-md-5{
-    width: 50%;
-  }
-  .col-md-6{
-    width: 60%;
-  }
-  .col-md-7{
-    width: 70%;
-  }
-  .col-md-8{
-    width: 80%;
-  }
-  .col-md-9{
-    width: 90%;
-  }
-  .col-md-10{
-    width: 100%;
-  }
-
-  .col-md-offset-1{
-    margin-left:10%;
-    }
-  .col-md-offset-2{
-    margin-left:20%;
-  }
-  .col-md-offset-3{
-    margin-left:32%;
-  }
-  .col-md-offset-4{
-    margin-left:40%;
-  }
-  .col-md-offset-5{
-    margin-left:50%;
-  }
-  .col-md-offset-6{
-    margin-left:60%;
-  }
-  .col-md-offset-7{
-    margin-left:70%;
-  }
-  .col-md-offset-8{
-    margin-left:80%;
-  }
-  .col-md-offset-9{
-    margin-left:90%;
-  }
-
-  .cell-1{
-    padding: 20px;
-    text-align: justify;
-  }
-  .cv-photo-md{
-    border-radius: 50%;
-    width: 30%;
-    margin-top: -60px;
-}
-  .resumen-md{
-    background: white;
-    margin: 20% 10% 10% 10%;
-  }
-  .edu-box{
-    background:lightgray;
-    display: box;
-    padding: 0.2rem;
-  }
-  .cell-2{
-    padding: 20px;
-  }
-  .presentation-md{
-    padding-top:6rem;
-  }
-  .presentation-md h1{
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-  }
-  .skill-bar {
-      width: 100%;
-      padding-top: 10px;
-  }
-  .skills {
-      text-align: left;
-      font-family: 'Merriweather Sans', sans-serif; 
-      color: #fff;
-      padding-right: 20px;
-      line-height: 40px;
-  }
-
-  .html {width: 70%; background-color: #FF5252;}
-  .css {width: 60%; background-color: #FF5252;}
-  .js {width: 15%; background-color: #FF5252;}
-  .php {width: 5%; background-color: #FF5252;}
-
-  .tag{
-      float: left;
-      width: 5rem;
-      height: 1.5rem; 
-      margin: 0.2rem;
-      text-align: center;
-      background: purple;
-      color: white;
-      font-family:"Open Sans",sans-serif;
-      font-size: 0.8rem;
-  }
-
-    header{
-      border-bottom-style: double;
-      border-color: lightgray;
-      margin: 1%;
-      }
-     
-    footer{
-      border-top-style: solid;
-      border-color: lightgray;
-      text-align: right;
-    }
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -256,9 +33,287 @@ h2{
 }
 
 p{
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul li{
   font-family: 'Open Sans', sans-serif;
+}
+
+/* Grid */
+
+.row {
+  clear: both;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10 {
+  float: left;
+}
+
+@media(max-width: 768px) {
+  .col-sm-1 {
+    width: 10%;
+  }
+
+  .col-sm-2 {
+    width: 20%;
+  }
+
+  .col-sm-3 {
+    width: 30%;
+  }
+
+  .col-sm-4 {
+    width: 40%;
+  }
+
+  .col-sm-5 {
+    width: 50%;
+  }
+
+  .col-sm-6 {
+    width: 60%;
+  }
+
+  .col-sm-7 {
+    width: 70%;
+  }
+
+  .col-sm-8 {
+    width: 80%;
+  }
+
+  .col-sm-9 {
+    width: 90%;
+  }
+
+  .col-sm-10 {
+    width: 100%;
+  }
+
+  /* offset */
+
+  .col-sm-offset-1 {
+    padding-left: 10%;
+  }
+
+  .col-sm-offset-3 {
+    margin-left: 30%;
+  }
+
+  .cv-photo-sm {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: -60px;
+  }
+
+  .resumen-sm {
+    background: white;
+    margin: 20% 10% 10% 10%;
+  }
+
+  .cell-sm {
+    text-align: justify;
+  }
+
+  .presentation-sm h1 {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+  .skill-bar {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .skills {
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    padding-right: 20px;
+    line-height: 40px;
+  }
+
+  .html {
+    width: 90%;
+    background-color: #FF5252;
+  }
+
+  .css {
+    width: 80%;
+    background-color: #FF5252;
+  }
+
+  .js {
+    width: 65%;
+    background-color: #FF5252;
+  }
+
+  .php {
+    width: 60%;
+    background-color: #FF5252;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+@media(min-width: 481px){
+
+  .col-md-1 {
+    width: 10%;
+  }
+
+  .col-md-2 {
+    width: 20%;
+  }
+
+  .col-md-3 {
+    width: 30%;
+  }
+
+  .col-md-4 {
+    width: 40%;
+  }
+
+  .col-md-5 {
+    width: 50%;
+  }
+
+  .col-md-6 {
+    width: 60%;
+  }
+
+  .col-md-7 {
+    width: 70%;
+  }
+
+  .col-md-8 {
+    width: 80%;
+  }
+
+  .col-md-9 {
+    width: 90%;
+  }
+
+  .col-md-10{
+    width: 100%;
+  }
+
+  .col-md-offset-1 {
+    margin-left:10%;
+  }
+
+  .col-md-offset-2 {
+    margin-left:20%;
+  }
+
+  .col-md-offset-3 {
+    margin-left:32%;
+  }
+
+  .col-md-offset-4 {
+    margin-left:40%;
+  }
+
+  .col-md-offset-5 {
+    margin-left:50%;
+  }
+
+  .col-md-offset-6 {
+    margin-left:60%;
+  }
+
+  .col-md-offset-7 {
+    margin-left:70%;
+  }
+
+  .col-md-offset-8 {
+    margin-left:80%;
+  }
+
+  .col-md-offset-9 {
+    margin-left:90%;
+  }
+
+  .cell-1 {
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .cv-photo-md {
+    border-radius: 50%;
+    width: 30%;
+    margin-top: -60px;
+  }
+
+  .resumen-md{
+    background: white;
+    margin: 20% 10% 10% 10%;
+  }
+
+  .edu-box{
+    background:lightgray;
+    display: box;
+    padding: 0.2rem;
+  }
+
+  .cell-2{
+    padding: 20px;
+  }
+
+  .presentation-md{
+    padding-top:6rem;
+  }
+
+  .presentation-md h1{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+  .skill-bar {
+      width: 100%;
+      padding-top: 10px;
+  }
+
+  .skills {
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    padding-right: 20px;
+    line-height: 40px;
+  }
+
+  .html {width: 70%; background-color: #FF5252;}
+  .css {width: 60%; background-color: #FF5252;}
+  .js {width: 15%; background-color: #FF5252;}
+  .php {width: 5%; background-color: #FF5252;}
+
+  .tag{
+    float: left;
+    width: 5rem;
+    height: 1.5rem;
+    margin: 0.2rem;
+    text-align: center;
+    background: purple;
+    color: white;
+    font-family:"Open Sans",sans-serif;
+    font-size: 0.8rem;
+  }
+
+  header{
+    border-bottom-style: double;
+    border-color: lightgray;
+    margin: 1%;
+  }
+
+  footer{
+    border-top-style: solid;
+    border-color: lightgray;
+    text-align: right;
+  }
 }
